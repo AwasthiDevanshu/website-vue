@@ -1,5 +1,6 @@
 const config = {
-    companyId: 3,
+    companyId: 9,
+    androidappurl: "https://play.google.com/store/apps/details?id=com.climaxacademy.app&hl=en_US&gl=US",
     homepageCorousalItems: [{
         captionHeader:"First Slide",
         image:"https://public.cprep.in/uploads/ccca7ddb6397c8deb445/Individual%20Math.jpg",

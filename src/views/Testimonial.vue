@@ -8,9 +8,8 @@
      <CRow class="choose-us d-flex justify-content-center text-center">
       <CCol col="12">
         <swiper ref="mySwiper" :options="swiperOptions">
-          <template v-for="testimonial in testimonials">
-            <swiper-slide>
-              <CCard>
+            <swiper-slide v-for="(testimonial,index) in testimonials" :key="index">
+              <CCard >
                 <CCardImg :src="testimonial.image"> </CCardImg>
                 <CCardBody>
                   <CCardHeader>{{ testimonial.name }}</CCardHeader>
@@ -18,7 +17,6 @@
                 >
               </CCard>
             </swiper-slide>
-          </template>
 
           <div class="swiper-pagination" slot="pagination"></div>
         </swiper>

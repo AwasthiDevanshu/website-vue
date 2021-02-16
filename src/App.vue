@@ -11,7 +11,6 @@ export default {
 <style lang="scss">
   // Import Main styles for this application
   @import 'assets/scss/style';
-  // import style (>= Swiper 6.x)
   
 </style>
 

@@ -9,7 +9,7 @@ const HomePage = () => import('@/views/HomePage')
 const AboutUs = () => import('@/views/AboutUs')
 const Policy = () => import('@/views/Policy')
 
-
+const Courses = () =>import('@/views/Courses')
 
 
 // Views - Pages
@@ -28,7 +28,8 @@ export default new Router({
   mode: 'history', // https://router.vuejs.org/api/#mode
   linkActiveClass: 'active',
   scrollBehavior: () => ({ y: 0 }),
-  routes: configRoutes()
+  routes: configRoutes(),
+
 })
 
 function configRoutes () {
@@ -67,6 +68,14 @@ function configRoutes () {
         {
           path:'/terms-and-conditions',
           component:Policy,
+          name: 'Terms and conditions',
+          meta: {
+            policyType: 3
+          }
+        },
+        {
+          path:'/courses',
+          component:Courses,
           name: 'Terms and conditions',
           meta: {
             policyType: 3
@@ -129,10 +138,9 @@ function configRoutes () {
           name: 'Register',
           component: Register
         },
- 
-        
       ]
-    }
+    },
+   
   ]
 }
 
