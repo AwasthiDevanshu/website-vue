@@ -41,7 +41,7 @@ export default {
   opacity: 0;
 }
 .c-main{
-  padding-top: 0px;
+  padding-top: 70px;
 }
 .container-fluid {
   margin-right: 0px;

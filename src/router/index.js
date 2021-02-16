@@ -7,6 +7,7 @@ const TheContainer = () => import('@/containers/TheContainer')
 // Views
 const HomePage = () => import('@/views/HomePage')
 const AboutUs = () => import('@/views/AboutUs')
+const Policy = () => import('@/views/Policy')
 
 
 
@@ -47,7 +48,30 @@ function configRoutes () {
           component: AboutUs,
           name: 'about-us',
         },
-
+        {
+          path:'/privacy-policy',
+          component:Policy,
+          name: 'Privacy Policy',
+          meta: {
+            policyType: 1
+          }
+        },
+        {
+          path:'/refund-policy',
+          component:Policy,
+          name: 'Refund Policy',
+          meta: {
+            policyType: 2
+          }
+        },
+        {
+          path:'/terms-and-conditions',
+          component:Policy,
+          name: 'Terms and conditions',
+          meta: {
+            policyType: 3
+          }
+        },
         {
           path: 'users',
           meta: {

@@ -21,6 +21,8 @@
     </CRow>
     <ChooseUs />
     <we-provide />
+    <Testimonial/>
+
   </div>
 </template>
 
@@ -28,12 +30,14 @@
 import config from "../constants/config";
 import ChooseUs from "./ChooseUs";
 import WeProvide from "./WeProvide";
+import Testimonial from "./Testimonial";
 
 export default {
   name: "Homepage",
   components: {
     ChooseUs,
     WeProvide,
+    Testimonial
   },
   data() {
     return {

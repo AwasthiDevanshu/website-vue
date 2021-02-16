@@ -28,23 +28,3 @@ export default {
   }
 }
 </script>
-<style scoped>
-.choose-us {
-    padding: 2em 0;
-    overflow: hidden;
-    margin: 1em 0;
-}
-.choose-us .text {
-    width: 50%;
-    float: left;
-    margin-bottom: 1.3em;
-    text-align: left;
-    line-height: 50px;
-}
-.choose-us .icon {
-    width: 51px;
-    height: 51px;
-    float: left;
-    margin-right: 2em;
-}
-</style>

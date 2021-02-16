@@ -58,17 +58,3 @@ export default {
   components: {},
 };
 </script>
-<style scoped>
-.choose-us {
-  padding: 2em 0;
-  overflow: hidden;
-  margin: 1em 0;
-}
-
-.choose-us .icon {
-  width: 51px;
-  height: 51px;
-  float: left;
-  margin-right: 2em;
-}
-</style>

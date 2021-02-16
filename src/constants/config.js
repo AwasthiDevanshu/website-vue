@@ -15,6 +15,37 @@ const config = {
         image:"https://public.cprep.in/uploads/ccca7ddb6397c8deb445/Individual%20Math.jpg",
         captionText:"Nulla vitae elit libero, a pharetra augue mollis interdum."
     }],
-    logo:"https://public.cprep.in/uploads/ccca7ddb6397c8deb445/Individual%20Math.jpg"
+    logo:"https://public.cprep.in/uploads/ccca7ddb6397c8deb445/Individual%20Math.jpg",
+    testimonials:[
+        { name: "Deva", text: "Hello Beautiful" },
+        { name: "Dev", text: "Hello Sexy" },
+        { name: "Dev", text: "Hello Sexy" },
+        { name: "Dev", text: "Hello Sexy" },
+        { name: "Dev", text: "Hello Sexy" },
+        { name: "Dev", text: "Hello Sexy" },
+        { name: "Dev", text: "Hello Sexy" },
+        { name: "Deva", text: "Hello Beautiful" },
+        { name: "Deva", text: "Hello Beautiful" },
+        { name: "Deva", text: "Hello Beautiful" },
+        { name: "Deva", text: "Hello Beautiful" },
+        { name: "Deva", text: "Hello Beautiful" },
+        { name: "Deva", text: "Hello Beautiful" },
+        { name: "Deva", text: "Hello Beautiful" },
+        { name: "Deva", text: "Hello Beautiful" },
+        { name: "Deva", text: "Hello Beautiful" },
+        { name: "Deva", text: "Hello Beautiful" },
+        { name: "Deva", text: "Hello Beautiful" },
+        { name: "Deva", text: "Hello Beautiful" },
+        { name: "Deva", text: "Hello Beautiful" },
+        { name: "Deva", text: "Hello Beautiful" },
+        { name: "Deva", text: "Hello Beautiful" },
+        { name: "Deva", text: "Hello Beautiful" },
+        { name: "Deva", text: "Hello Beautiful" },
+        { name: "Dev", text: "Hello Sexy" },
+        { name: "Dev", text: "Hello Sexy" },
+        { name: "Dev", text: "Hello Sexy" },
+        { name: "Dev", text: "Hello Sexy" },
+        { name: "Dev", text: "Hello Sexy" },
+    ]
 }
 module.exports = config;

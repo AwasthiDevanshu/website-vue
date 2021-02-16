@@ -1,7 +1,11 @@
 <template>
   <CFooter :fixed=false>
-    <CContainer>
-    <CRow style="background-color:#311b92;color:#fafafa;">
+    <CContainer fluid>
+     
+    <CRow style="color:#fafafa;" align-vertical="center" align-horizontal="center" class="primary-color mu-2 pb-4 pt-4">
+      <CCol>
+       <h3>Useful Links</h3>
+      </CCol>
       <CCol lg="12">
         <CLink href="about-us" class="c-link">About us </CLink>
       </CCol>
@@ -17,7 +21,7 @@
       </CCol>
     </CRow>
 
-    <CRow align-horizontal="center">
+    <CRow align-horizontal="center" >
       <span >Powered by <a href="https://cprep.in" target="_blank">Cprep</a></span>
       
     </CRow>
