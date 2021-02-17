@@ -1,28 +1,32 @@
 // Here you can add other styles
 .primary-color {
-    background-color:#311b92
+  background-color: #311b92;
 }
 .primary-color-light {
-    background-color:#6746c3
+  background-color: #6746c3;
 }
 .primary-color-dark {
-    background-color:#000063
+  background-color: #000063;
 }
 .choose-us {
-    padding: 2em 0;
-    overflow: hidden;
-    margin: 1em 0;
+  padding: 2em 0;
+  overflow: hidden;
+  margin: 1em 0;
 }
 .choose-us .text {
-    width: 50%;
-    float: left;
-    margin-bottom: 1.3em;
-    text-align: left;
-    line-height: 50px;
+  width: 50%;
+  float: left;
+  margin-bottom: 1.3em;
+  text-align: left;
+  line-height: 50px;
 }
 .choose-us .icon {
-    width: 51px;
-    height: 51px;
-    float: left;
-    margin-right: 2em;
+  width: 51px;
+  height: 51px;
+  float: left;
+  margin-right: 2em;
+}
+.nav-link {
+  color: #fafafa!important;
+  font-family: Mons;
 }
