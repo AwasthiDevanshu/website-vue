@@ -7,6 +7,7 @@ const TheContainer = () => import('@/containers/TheContainer')
 // Views
 const HomePage = () => import('@/views/HomePage')
 const AboutUs = () => import('@/views/AboutUs')
+const ContactUs = () => import('@/views/ContactUs')
 const Policy = () => import('@/views/Policy')
 
 const Courses = () =>import('@/views/Courses')
@@ -48,6 +49,11 @@ function configRoutes () {
           path:'/about-us',
           component: AboutUs,
           name: 'about-us',
+        },
+        {
+          path:'/contact-us',
+          component: ContactUs,
+          name: 'contact-us',
         },
         {
           path:'/privacy-policy',

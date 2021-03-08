@@ -32,6 +32,17 @@
 <script>
 export default {
   name: 'TheFooter'
+  ,
+  data(){
+    return {
+      companyDetails :{}
+    }
+  },
+  methods:{
+    getCompanyDetails(){
+      
+    }
+  }
 }
 </script>
 <style scoped>
